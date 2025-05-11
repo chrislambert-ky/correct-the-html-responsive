@@ -170,14 +170,16 @@ hr {
 		align-items: center;
 	}
 
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	.main-article {
-		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
 
 	.main-sidebar {
-		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
 	}
